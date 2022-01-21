@@ -1,5 +1,5 @@
 #Formatted csvs in order to save space
-FormattedData*
+FormattedData/*
 
 #Byte-compiled / optimized / DLL files
 __pycache__/
