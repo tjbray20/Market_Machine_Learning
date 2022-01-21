@@ -1,4 +1,7 @@
-# Byte-compiled / optimized / DLL files
+#Formatted csvs in order to save space
+FormattedData*
+
+#Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
 *$py.class
