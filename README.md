@@ -5,7 +5,7 @@
 
 ## Overview
 
-Machine learning techniques used for predicting stock prices involve analyzing historical data to forecast future performance. This is done by looking at patterns in the data which includes current and past information and finding the best fit predictive models. Machine learning modeling can be done with a multitude of different algorithms and associated parameters and/or hyperparameters. These predictive models can be used by investors to be make informed investment decisions that will provide them with higher returns while minimizing losses. In recent years, the continued development of machine learning has provided a greater level of model performance for stock price prediction.
+Machine learning techniques used for predicting stock prices involve analyzing historical data to forecast future performance. This is done by looking at patterns in the data which includes current and past information and finding the best fit predictive models. Machine learning modeling can be done with a multitude of different algorithms and associated parameters and/or hyperparameters. These predictive models can be used by investors to make informed investment decisions that will provide them with higher returns while minimizing losses. In recent years, the continued development of machine learning has provided a greater level of model performance for stock price prediction.
 
 This project seeks to use historical data in order to create models that can predict the price movement of stocks in order to make better investment decisions.
 
@@ -16,9 +16,9 @@ This project seeks to create models using different machine learning algoritihms
 For this project, I will be using stock market data gathered from multiple sources. The company data comes from [Paul Mooney's](https://www.kaggle.com/paultimothymooney) [Stock Market Dataset](https://www.kaggle.com/paultimothymooney/stock-market-data). The S&P 500 index data has been gathered from [Larxel's](https://www.kaggle.com/andrewmvd) [S&P 500](https://www.kaggle.com/andrewmvd/sp-500-stocks?select=sp500_index.csv) dataset. Macroeconomic data has been sourced from [Calven Ng's](https://www.kaggle.com/calven22) [USA Key Economic Indicators](https://www.kaggle.com/calven22/usa-key-macroeconomic-indicators) dataset. I have also included API calls using [UniBit](https://unibit.ai/solution).
 
 I calculate multiple different technical indicators in order to further my analysis:
-1. Relative Strength Index which is a measurement of momentum.
-2. Moving Averages, both simple and exponential.
-3. Bollinger Bands which is a measure of volatility. 
+1. Moving Averages, both simple and exponential.
+2. Bollinger Bands which is a measure of volatility.
+3. Relative Strength Index which is a measurement of momentum.
 
 ![HPQPrice](./Visualizations/HPQPricePlot.png)
 
