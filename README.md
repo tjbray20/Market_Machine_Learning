@@ -20,21 +20,29 @@ I calculate multiple different technical indicators in order to further my analy
 2. Moving Averages, both simple and exponential.
 3. Bollinger Bands which is a measure of volatility. 
 
+![HPQPrice](./Visualizations/HPQPricePlot.png)
+
+![HasbroPlots](./Visualizations/HasbroPlots.png)
+
 For the S&P 500 Index, I calculate the technical indicators as well.
 Macroeconomic Factors I include in my data are Personal Savings Rate, M2 Money Supply, Core Consumer Price Index, Disposable Personal Income, Treasury Rate, Federal Funds Rate, and Industrial Production.
 
 Due to time and processing constraints, I used a random group of 75 companies to train and test my models on.
 
 ## Methodology
-I use 6 different model types throughout this project.
+I use 6 different model types throughout this project. These models are compared against a baseline model of the stock continuing to move in the same direction it moved a majority of the time in the training set.
 
 - The Regression Models are: Elastic Net, Support Vector Regression, and Ridge Regression. 
 - The Classification Models are: Logistic Regression, Decision Tree, and XGBoost. 
 
-These models are compared against a baseline model of the stock continuing to move in the same direction it moved a majority of the time in the training set.
+## Results 
+The regression models did not provide usable predictive models. The test residuals were only normally distributed 8 out 225 times. This means that the model does not explain all the trends in the dataset. One of the models with normally distributed residuals was the Support Vector Regression of Assurant, Inc. (AIZ). As you can see, there are trends in the residual plots, as well as predicted values that do not align closely with the observed values.
 
-## Results
-While no specific model type outperformed the baseline in the aggregate. There were many instances of individual models for specific companies outperforming the baseline. Biogen Inc had the top two models, SVR and Decision Tree, they outperformed the baseline by 8.2% and 6%, respectively. In total, 56 companies had at least one model out perform the baseline.
+![AIZResiduals](./Visualizations/AIZresiduals.png)
+
+There was a bit more success with classification models as they are only predicting binary outcomes. The best model predicted Biogen Inc (BIIB) correctly 52% of the time which was 6% above the baseline. Further analysis should be done with models that outperformed in order to determine their longterm viability.
+
+![BIIBConfusionMatrix](./Visualizations/BIIBConfusionMatrix.png)
 
 ## Conclusions and Next Steps
 No one size fits all model exists in this project. Further analysis should be done to determine the long term viability of the models I've created.
@@ -43,6 +51,7 @@ Next steps should include:
 - Natural Language processing to determine Wall St. sentiment towards given stocks.
 - Sector specific analysis.
 - Using rolling regressions to test model accuracy on a testing set of one day at a time.
+- Add a third category, sideways movement, to the Classification Models. Set limits around ~1% that would indicate predicted sideways movement throughout the day.
 
 ### For More Information
 Please review my full analysis in my [Jupyter Notebook](MainNotebook.ipynb) or [presentation deck](Project_Presentation.pdf).
