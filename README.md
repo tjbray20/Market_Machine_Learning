@@ -5,7 +5,11 @@
 
 ## Overview
 
+<<<<<<< HEAD
 Machine learning techniques used for predicting stock prices involve analyzing historical data to forecast future performance. This is done by looking at patterns in the data which includes current and past information and finding the best fit predictive models. Machine learning modeling can be done with a multitude of different algorithms and associated parameters and/or hyperparameters. These predictive models can be used by investors to make informed investment decisions that will provide them with higher returns while minimizing losses. In recent years, the continued development of machine learning has provided a greater level of model performance for stock price prediction.
+=======
+Machine learning techniques used for predicting stock prices involve analyzing historical data to forecast future performance. This is done by looking at patterns in the data which includes current and past information and finding the best fit predictive models. Machine learning modeling can be done with a multitude of different algorithms and associated parameters and/or hyperparameters. These predictive models can be used by investors to  make informed investment decisions that will provide them with higher returns while minimizing losses. In recent years, the continued development of machine learning has provided a greater level of model performance for stock price prediction.
+>>>>>>> 920ff51d618286fed3999c46d434fc365b50008a
 
 This project seeks to use historical data in order to create models that can predict the price movement of stocks in order to make better investment decisions.
 
