@@ -49,7 +49,7 @@ There was a bit more success with classification models as they are only predict
 ![BIIBConfusionMatrix](./Visualizations/BIIBConfusionMatrix.png)
 
 ## Conclusions and Next Steps
-No one size fits all model exists in this project. Further analysis should be done to determine the long term viability of the individual models I've created. While some perform well, they do not predict at a high level overall. In order to beat the market consistently, higher probability models should be sought.
+No one size fits all model exists in this project. Further analysis should be done to determine the long term viability of the individual models I've created. While some perform well, they do not predict at a high level overall. ***In order to beat the market consistently, higher probability models should be sought.***
 
 Next steps should include:
 - Natural Language processing to determine Wall St. sentiment towards given stocks.
