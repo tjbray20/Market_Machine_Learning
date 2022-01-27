@@ -1,7 +1,7 @@
 ![header](https://i.ibb.co/Wfkf5NT/Market-Header.png)
 
 # Market Machine Learning
-[TJ Bray](https://www.linkedin.com/in/thomas-tj-bray-24499354/) Capstone Project for Flatiron School
+[TJ Bray](https://www.linkedin.com/in/thomas-tj-bray-24499354/) - *Capstone Project for Flatiron School*
 
 ## Overview
 Machine learning techniques used for predicting stock prices involve analyzing historical data to forecast future performance. This is done by looking at patterns in the data which includes current and past information and finding the best fit predictive models. Machine learning modeling can be done with a multitude of different algorithms and associated parameters and/or hyperparameters. These predictive models can be used by investors to  make informed investment decisions that will provide them with higher returns while minimizing losses. In recent years, the continued development of machine learning has provided a greater level of model performance for stock price prediction.
