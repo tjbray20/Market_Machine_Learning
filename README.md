@@ -64,8 +64,8 @@ If you have more questions or want more information, feel free to [e-mail me](ma
 ```
 ├── Macro_Data                         <- Macroeconomic Data Files and Notebook for formatting
 ├── Past_Models                        <- Notebooks from past data modeling and exploration
-├── sp_500_data                        <- Source data .csv files
 ├── Visualizations                     <- file containing visualizations found throughout the project
+├── sp_500_data                        <- Source data .csv files
 ├── ClassifierResults.csv              <- .csv file containing the results of all classifier modeling
 ├── MainNotebook.ipynb                 <- Technical and narrative documentation in Jupyter Notebook
 ├── project_presentation.pdf           <- PDF version of project presentation
