@@ -26,7 +26,7 @@ I calculate multiple different technical indicators in order to further my analy
 For the S&P 500 Index, I calculate the technical indicators as well.
 Macroeconomic Factors I include in my data are Personal Savings Rate, M2 Money Supply, Core Consumer Price Index, Disposable Personal Income, Treasury Rate, Federal Funds Rate, and Industrial Production.
 
-*due to the large size of the formatted data files, I did not push them to github. However, they can be reproduced with the functions within this notebook.*
+*Due to the large size of the formatted data files, I did not push them to github. However, they can be reproduced with the functions within this notebook.*
 
 Due to time and processing constraints, I used a random group of 75 companies to train and test my models on.
 
