@@ -4,9 +4,9 @@
 [TJ Bray](https://www.linkedin.com/in/thomas-tj-bray-24499354/) - *Capstone Project for Flatiron School*
 
 ## Overview
-Machine learning techniques used for predicting stock prices involve analyzing historical data to forecast future performance. This is done by looking at patterns in the data which includes current and past information and finding the best fit predictive models. Machine learning modeling can be done with a multitude of different algorithms and associated parameters and/or hyperparameters. These predictive models can be used by investors to  make informed investment decisions that will provide them with higher returns while minimizing losses. In recent years, the continued development of machine learning has provided a greater level of model performance for stock price prediction.
+Every day, trillions of dollars are traded throughout the world's stock exchanges. Both professionals and amateurs alike seek to find hidden gem companies that will allow them to grow their portfolio at a high rate. There are countless newspapers, TV shows, and other forms of media dedicated to giving their throughts on what the market will do in a given day, week, month, or year. With the significant increase in personal computer processing power, machine learning techniques have become more accessible to the common man. Machine learning techniques used for predicting stock prices involve analyzing historical data to forecast future performance. This is done by looking at patterns in data in order to find the best fit predictive models. Machine learning modeling can be done with a multitude of different algorithms and associated parameters and/or hyperparameters. These predictive models can be used by investors to be make informed investment decisions that will provide them with higher returns while minimizing losses. In recent years, the continued development of machine learning has provided a greater level of model performance for stock price prediction. 
 
-This project seeks to use historical data in order to create models that can predict the price movement of stocks in order to make better investment decisions.
+This project seeks to use historical data in order to create models that can predict the price movement of stocks in order to make better investment decisions. If successful, these models can be used by everyone involved with stock trading, from Wall St. Firms to individual investors. 
 
 ## Business Objective
 This project seeks to create models using different machine learning algoritihms that can predict the price movements of a stock on a given day.
@@ -26,6 +26,8 @@ I calculate multiple different technical indicators in order to further my analy
 For the S&P 500 Index, I calculate the technical indicators as well.
 Macroeconomic Factors I include in my data are Personal Savings Rate, M2 Money Supply, Core Consumer Price Index, Disposable Personal Income, Treasury Rate, Federal Funds Rate, and Industrial Production.
 
+*due to the large size of the formatted data files, I did not push them to github. However, they can be reproduced with the functions within this notebook.*
+
 Due to time and processing constraints, I used a random group of 75 companies to train and test my models on.
 
 ## Methodology
@@ -44,7 +46,7 @@ There was a bit more success with classification models as they are only predict
 ![BIIBConfusionMatrix](./Visualizations/BIIBConfusionMatrix.png)
 
 ## Conclusions and Next Steps
-No one size fits all model exists in this project. Further analysis should be done to determine the long term viability of the models I've created.
+No one size fits all model exists in this project. Further analysis should be done to determine the long term viability of the individual models I've created. While some perform well, they do not predict at a high level overall. In order to beat the market consistently, higher probability models should be sought.
 
 Next steps should include:
 - Natural Language processing to determine Wall St. sentiment towards given stocks.
@@ -53,5 +55,17 @@ Next steps should include:
 - Add a third category, sideways movement, to the Classification Models. Set limits around ~1% that would indicate predicted sideways movement throughout the day.
 
 ### For More Information
-Please review my full analysis in my [Jupyter Notebook](MainNotebook.ipynb) or [presentation deck](Project_Presentation.pdf).
+Please review my full analysis in my [Jupyter Notebook](MainNotebook.ipynb) or [presentation deck](project_presentation.pdf).
 If you have more questions or want more information, feel free to [e-mail me](mailto:tjbray20@gmail.com).
+
+## Respository Structure
+```
+├── Macro_Data                         <- Macroeconomic Data Files and Notebook for formatting
+├── Past_Models                        <- Notebooks from past data modeling and exploration
+├── sp_500_data                        <- Source data .csv files
+├── Visualizations                     <- file containing visualizations found throughout the project
+├── ClassifierResults.csv              <- .csv file containing the results of all classifier modeling
+├── MainNotebook.ipynb                 <- Technical and narrative documentation in Jupyter Notebook
+├── project_presentation.pdf           <- PDF version of project presentation
+└── RegressionResults.csv              <- .csv file containing the resuslts of all regression modeling
+```
