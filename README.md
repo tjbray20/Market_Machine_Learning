@@ -54,3 +54,4 @@ Next steps should include:
 
 ### For More Information
 Please review my full analysis in my [Jupyter Notebook](MainNotebook.ipynb) or [presentation deck](Project_Presentation.pdf).
+If you have more questions or want more information, feel free to [e-mail me](mailto:tjbray20@gmail.com).
