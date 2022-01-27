@@ -37,10 +37,12 @@ I use 6 different model types throughout this project. These models are compared
 - The Classification Models are: Logistic Regression, Decision Tree, and XGBoost. 
 
 ## Results 
+#### **Regression Models**
 The regression models did not provide usable predictive models. The test residuals were only normally distributed 8 out 225 times. This means that the model does not explain all the trends in the dataset. One of the models with normally distributed residuals was the Support Vector Regression of Assurant, Inc. (AIZ). As you can see, there are trends in the residual plots, as well as predicted values that do not align closely with the observed values.
 
 ![AIZResiduals](./Visualizations/AIZresiduals.png)
 
+#### **Classification Models**
 There was a bit more success with classification models as they are only predicting binary outcomes. The best model predicted Biogen Inc (BIIB) correctly 52% of the time which was 6% above the baseline. Further analysis should be done with models that outperformed in order to determine their longterm viability.
 
 ![BIIBConfusionMatrix](./Visualizations/BIIBConfusionMatrix.png)
