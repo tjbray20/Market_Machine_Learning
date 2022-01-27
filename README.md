@@ -14,10 +14,11 @@ This project seeks to create models using different machine learning algoritihms
 ## Data
 For this project, I will be using stock market data gathered from multiple sources. The company data comes from [Paul Mooney's](https://www.kaggle.com/paultimothymooney) [Stock Market Dataset](https://www.kaggle.com/paultimothymooney/stock-market-data). The S&P 500 index data has been gathered from [Larxel's](https://www.kaggle.com/andrewmvd) [S&P 500](https://www.kaggle.com/andrewmvd/sp-500-stocks?select=sp500_index.csv) dataset. Macroeconomic data has been sourced from [Calven Ng's](https://www.kaggle.com/calven22) [USA Key Economic Indicators](https://www.kaggle.com/calven22/usa-key-macroeconomic-indicators) dataset. I have also included API calls using [UniBit](https://unibit.ai/solution).
 
+#### Feature Engineering
 I calculate multiple different technical indicators in order to further my analysis:
-1. Moving Averages, both simple and exponential.
-2. Bollinger Bands which is a measure of volatility.
-3. Relative Strength Index which is a measurement of momentum.
+1. ***Moving Averages***, both simple and exponential.
+2. ***Bollinger Bands*** which is a measure of volatility.
+3. ***Relative Strength Index*** which is a measurement of momentum.
 
 ![HPQPrice](./Visualizations/HPQPricePlot.png)
 
@@ -28,7 +29,7 @@ Macroeconomic Factors I include in my data are Personal Savings Rate, M2 Money S
 
 *Due to the large size of the formatted data files, I did not push them to github. However, they can be reproduced with the functions within this notebook.*
 
-Due to time and processing constraints, I used a random group of 75 companies to train and test my models on.
+*Due to time and processing constraints, I used a random group of 75 companies to train and test my models on.*
 
 ## Methodology
 I use 6 different model types throughout this project. These models are compared against a baseline model of the stock continuing to move in the same direction it moved a majority of the time in the training set.
